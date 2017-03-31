@@ -239,13 +239,20 @@ Note that Advanced users can also use the pin numbers, so D7 = pin 7 on Photon b
     sendToParticle('digitalRead(D6);')
 }"><br><br>
   
+<input type="button" value="digitalWrite(D3,0);" onClick="{
+    sendToParticle('digitalWrite(D3,0);')
+}"><br><br>
+
+<input type="button" value="digitalWrite(D3,1);" onClick="{
+    sendToParticle('digitalWrite(D3,1);')
+}"><br><br>   
    
 <input type="button" value="analogRead(A0);" onClick="{
     sendToParticle('analogRead(A0);')
 }">   Photon Direct Analog input, PI uses capactive Input both returns 0-4095<br>
      
    
-   
+
    
 
 <input type="button" value="analogWrite(A4,255);" onClick="{
